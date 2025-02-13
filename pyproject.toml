@@ -34,6 +34,11 @@ gradio = [
     "markdown==3.4.1",
     "SentencePiece==0.1.96"
 ]
+fastapi = [
+    "fastapi",
+    "uvicorn",
+    "python-multipart"
+]
 lint = [
     "isort",
     "black[jupyter] >= 22.6.0",
